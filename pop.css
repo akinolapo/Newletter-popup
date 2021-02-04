@@ -74,7 +74,7 @@ h1{
 
 
 
-input[type=text]{
+input[type=email]{
     padding: 8px;
     outline: none;
     border: 3px solid white;
@@ -92,6 +92,11 @@ input[type=text]{
     border: none;
     color: teal;
     font-weight: 700;
+    cursor: pointer;
+}
+.social-media a{
+    text-decoration: none;
+    color: white;
 }
 .social-media i{
     border: 1px solid white;
@@ -100,6 +105,7 @@ input[type=text]{
     font-size: 20px;
     margin-right: 10px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .close-btn{
     background: transparent;
